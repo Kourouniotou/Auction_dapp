@@ -20,7 +20,7 @@ class App extends Component {
       const deployedNetwork = AuctionContract.networks[networkId];
       const instance = new web3.eth.Contract(
         AuctionContract.abi,
-        deployedNetwork && deployedNetwork.address,
+        "0x6d9D840475CdD72702C123434511BE38dBFDFfC5",
       );
       //const ContractBalance = await web3.eth.getBalance(instance.address);
 
