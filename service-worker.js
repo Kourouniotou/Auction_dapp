@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Auction_dapp/precache-manifest.88746028fe280c9531e5581a80f77d54.js"
+  "/Auction_dapp/precache-manifest.5021224c9b23c33d71269b9086f30e32.js"
 );
 
 self.addEventListener('message', (event) => {
